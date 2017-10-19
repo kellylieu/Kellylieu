@@ -8,8 +8,39 @@ body {
   min-height: 100%;
   font-family: "Helvetica Neue", Arial, sans-serif;
   /* Padding for top navbar fixed  */
-  padding-top: 70px; 
+  /* padding-top: 70px;  */
 }
+
+
+.navbar-text{
+font-size: 16px;
+}
+.img-thumbnail {
+  font-size: 16px
+}
+
+
+.card-header{
+  font-size: 32px;
+
+}
+
+.jumbotron{
+  background-image: url('mountain.jpg');
+  background-size:cover;
+  /* background-color: red; */
+}
+
+.card-header:hover{
+  background-color:gray;
+}  
+/* .form-group:hover{
+  background-color: gray;
+} */
+.navbar-brand:hover{
+  background-color: blue; 
+} 
+
 html {
   height: 100%;
   box-sizing: border-box;
